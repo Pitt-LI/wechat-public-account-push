@@ -15,7 +15,35 @@ const USER_CONFIG = {
 
   PROVINCE: '四川',
   CITY: '蓬溪县',
+  TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'ab26ade3ccbb550732bac7932d8fc630',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+  
+    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    //eveningGreeting: true,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 3,
+ 
+  },
+  
+  /** 是否给文字设置多彩颜色, 和emoji不兼容 */
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: true,
+  
+  /** 每日一言 */
+  // 每日一言的内容类型
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+  LITERARY_PREFERENCE: '',
+  
 
+  /**
+   * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
+   */
   USERS: [
     {
       // 想要发送的人的名字
