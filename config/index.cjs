@@ -15,6 +15,17 @@ const USER_CONFIG = {
 
   PROVINCE: '四川',
   CITY: '蓬溪县',
+  
+  // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+
+   
+  },
+  
+
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'ab26ade3ccbb550732bac7932d8fc630',
