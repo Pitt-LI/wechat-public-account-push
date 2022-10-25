@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'b490d3c6a92d20781c5023285c0b15c2',
 
   PROVINCE: '四川',
-  CITY: '蓬溪',
+  CITY: '蓬溪县',
 
   USERS: [
     {
